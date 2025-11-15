@@ -19,6 +19,7 @@ Step-2:
 1) PS C:\Users\Alvin\Desktop\CRUD-roadmap\core> python manage.py migrate
 
 core/home/models.py
+
 add:
 class Person(models.Model):
     name = models.CharField(max_length=50)
@@ -243,6 +244,7 @@ Step-8:
 Test server:
 1) PS C:\Users\Alvin\Desktop\CRUD-roadmap\core> python manage.py runserver
 Open: https://sqliteviewer.app/
+
 
 
 
